@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="15" fill="#2b1d24"/>
+  <circle cx="32" cy="32" r="25.5" fill="none" stroke="#dec6a3" stroke-width=".8"/>
+  <circle cx="32" cy="32" r="22" fill="none" stroke="#dec6a3" stroke-width=".4" opacity=".68"/>
+  <path d="M16 43c4 3 9 5 16 5 6 0 12-2 16-5" fill="none" stroke="#dec6a3" stroke-width=".7"/>
+  <text x="31" y="40" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="28" letter-spacing="-4" fill="#f4eee9">GC</text>
+</svg>

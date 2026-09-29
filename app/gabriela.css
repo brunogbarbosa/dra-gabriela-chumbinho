@@ -1,0 +1,18 @@
+/* Gabriela Chumbinho — graphite, ivory, soft burgundy and champagne. */
+.essence-editorial { background: #f4eee9; }
+.essence-values { background: #ebdedb; }
+.essence-value { background: #faf8f3d9; border-color: #ffffffa8; }
+.essence-value-icon { background: #dfc9c3; color: #2b1d24; }
+.essence-editorial-description, .essence-value p { color: #6f6260; }
+.gallery-chapter, .closing-chapter, .footer, .result-dialog { background: #221c1e; }
+.gallery-photo, .comparison { background: #3b2b30; }
+.gallery-heading p, .footer-main > div { color: #d9cec6; }
+.ritual-chapter { background: #f4eee9; }
+.social-chapter { background: #eadbd8; }
+.closing-chapter { background: radial-gradient(circle at 80% 20%, #513039, #221c1e 58%); }
+.menu-dialog { background: #f4eee9; }
+.viewer-note { color: #dec6a3; }
+@media (max-width: 700px) {
+  .gallery-heading p { max-width: 30rem; }
+  .gallery-photo { aspect-ratio: .88; }
+}
