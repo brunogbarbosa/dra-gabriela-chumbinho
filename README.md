@@ -24,4 +24,4 @@ Importe este repositório na Vercel com framework Next.js e diretório raiz `./`
 
 ## Conteúdo
 
-Os dados e contatos estão em `data/site.ts`. O WhatsApp, Instagram, localidade e CRO seguem a referência fornecida. Retratos e registros de resultados foram enviados pelo solicitante e usados sem retoque visual. A galeria informa que os resultados são individuais. O favicon está em `app/icon.svg`. Nenhuma imagem OG foi criada ou incluída.
+Os dados e contatos estão em `data/site.ts`. O WhatsApp, Instagram, localidade e CRO seguem a referência fornecida. Retratos e registros de resultados foram enviados pelo solicitante e usados sem retoque visual. A galeria informa que os resultados são individuais. O favicon está em `app/icon.svg`. A imagem OG enviada está em `app/opengraph-image.jpg`, otimizada para 1200 × 630 px.
