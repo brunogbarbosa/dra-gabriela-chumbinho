@@ -12,7 +12,7 @@
 .campaign::after { background: radial-gradient(ellipse at 80% 38%, transparent 0%, #18151322 88%); mix-blend-mode: multiply; }
 .campaign-portrait { position: absolute; z-index: 0; inset: 0 0 0 40%; pointer-events: none; -webkit-mask-image: linear-gradient(90deg, transparent 0%, #0002 8%, #0008 22%, #000 42%); mask-image: linear-gradient(90deg, transparent 0%, #0002 8%, #0008 22%, #000 42%); }
 .campaign-silhouette { position: absolute; inset: 0; overflow: hidden; }
-.campaign-original { object-fit: cover; object-position: center 35%; filter: saturate(.97) contrast(1.01) brightness(1.04); transform: scale(1.015); }
+.campaign-original { object-fit: cover; object-position: center top; filter: saturate(.97) contrast(1.01) brightness(1.04); }
 .campaign-organic { position: absolute; z-index: 2; pointer-events: none; border: 1px solid #e9d4ba52; }
 .campaign-organic-one { width: 57vw; height: 72vw; max-height: 1060px; right: -7vw; top: -19vw; border-radius: 50%; transform: rotate(22deg); }
 .campaign-organic-two { width: 49vw; height: 65vw; max-height: 950px; right: -3vw; top: -14vw; border-radius: 50%; transform: rotate(22deg); border-color: #e9d4ba28; }
@@ -59,7 +59,7 @@
   .header .mobile-menu { width: 45px; height: 45px; }
   .campaign { height: max(100svh, 780px); min-height: 780px; max-height: none; }
   .campaign-portrait { inset: 0 0 28% 0; -webkit-mask-image: none; mask-image: none; }
-  .campaign-original { object-position: center 22%; filter: saturate(.94) contrast(1.01) brightness(.98); }
+  .campaign-original { object-position: center 22%; filter: saturate(.94) contrast(1.01) brightness(.98); transform: scale(1.015); }
   .campaign::before { background: linear-gradient(180deg, #181412a6 0%, #18141208 18%, #18141213 35%, #181412d5 58%, #181412 74%, #181412 100%); }
   .campaign::after { background: linear-gradient(90deg, #1915136e, transparent 38%); }
   .campaign-inner { padding: 102px 6% 24px; }
